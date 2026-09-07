@@ -10,9 +10,19 @@ An end-to-end Sales Analytics solution that transforms 10,000+ raw, unorganized 
 
 ---
 
+## 🖼️ Dashboard Cover
+
+![Executive Dashboard Overview](Cover.png)
+> *Figure 1.0: Full Interactive Excel Dashboard featuring KPI summary cards, cross-filtering slicers, and dynamic sales visualizations.*
+
+---
+
+
+---
+
 ## 🖼️ Dashboard Preview
 
-![Executive Dashboard Overview](https://via.placeholder.com/1200x675.png?text=Sales+Performance+Executive+Dashboard+Preview)
+![Executive Dashboard Overview](ExcelSalesDashboard.png)
 > *Figure 1.0: Full Interactive Excel Dashboard featuring KPI summary cards, cross-filtering slicers, and dynamic sales visualizations.*
 
 ---
@@ -68,17 +78,11 @@ The raw dataset was ingested and cleaned using **Power Query Editor** to guarant
    * $\text{Total Cost} = \text{Quantity} \times \text{Unit Cost}$
 4. **Schema Cleanup:** Normalized regional sales records to maintain strict row-based consistency.
 
-![Power Query Data Transformation Pipeline](https://via.placeholder.com/900x450.png?text=Power+Query+ETL+Transformation+Steps)
-> *Figure 2.0: Automated Power Query transformation steps and schema formatting.*
-
 ---
 
 ## 📐 Data Modeling & DAX Measures (Power Pivot)
 
 The cleansed dataset was loaded directly into Excel's **Data Model** to build a normalized **Star Schema** linking fact tables with dimension tables (`Dim_Product`, `Dim_Calendar`, `Dim_Channel`).
-
-![Star Schema Data Model](https://via.placeholder.com/800x400.png?text=Power+Pivot+Star+Schema+Diagram)
-> *Figure 3.0: Star Schema data model displaying Fact and Dimension table relationships.*
 
 ### Key DAX Measures Formulated:
 
@@ -103,9 +107,6 @@ The cleansed dataset was loaded directly into Excel's **Data Model** to build a 
 ---
 
 ## 📊 Dashboard Features & Layout
-
-![Dashboard Components Callout](https://via.placeholder.com/1000x500.png?text=Dashboard+Features+and+KPI+Cards+Breakdown)
-> *Figure 4.0: Visual callout map detailing dashboard features and control elements.*
 
 * **Executive KPI Cards:** Real-time visibility into Total Sales, Gross Profit, Unit Volume, and Profit Margins.
 * **Interactive Slicers:** Universal cross-filtering by *Region*, *Product Category*, *Sales Type (B2B/B2C)*, and *Timeline (Year/Quarter)*.
@@ -146,4 +147,4 @@ The cleansed dataset was loaded directly into Excel's **Data Model** to build a 
 ---
 
 ### 📩 Contact & Connect
-Have questions, suggestions, or feedback about this portfolio project? Let's connect on [LinkedIn](https://www.linkedin.com/) or check out my other data analytics repositories on GitHub!
+Have questions, suggestions, or feedback about this portfolio project? Let's connect on [LinkedIn](https://www.linkedin.com/ed-mo1) or check out my other data analytics repositories on GitHub!
