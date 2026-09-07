@@ -22,7 +22,7 @@ An end-to-end Sales Analytics solution that transforms 10,000+ raw, unorganized 
 
 ## 🖼️ Dashboard Preview
 
-![Executive Dashboard Overview](Excel Sales Dashboard.png)
+![Executive Dashboard Overview](ExcelSalesDashboard.png)
 > *Figure 1.0: Full Interactive Excel Dashboard featuring KPI summary cards, cross-filtering slicers, and dynamic sales visualizations.*
 
 ---
